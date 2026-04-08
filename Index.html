@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anushka Jha | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #F0E6DA;
+      color: #1a1a1a;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header video {
+      width: 90%;
+      max-width: 500px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    header h1 {
+      margin-top: 20px;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      color: #555;
+    }
+
+    section {
+      padding: 50px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      border-left: 4px solid #FFEDAB;
+      padding-left: 10px;
+    }
+
+    .hook {
+      text-align: center;
+      padding: 80px 20px;
+      font-size: 2rem;
+      font-weight: bold;
+      background: #FFEDAB;
+    }
+
+    .reveal {
+      text-align: center;
+      padding: 80px 20px;
+      max-width: 800px;
+      margin: auto;
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      font-weight: bold;
+      font-size: 1.4rem;
+      margin-top: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.04);
+    }
+
+    .card img,
+    .card video {
+      width: 100%;
+      display: block;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills li {
+      background: #FFEDAB;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 10px;
+    }
+
+    .tools img {
+      width: 100%;
+      max-width: 500px;
+      display: block;
+      margin: auto;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <video autoplay muted loop playsinline>
+    <source src="intro.mp4" type="video/mp4">
+  </video>
+  <h1>Anushka Jha</h1>
+  <p>Helping brands grow with social media, copywriting & SEO</p>
+</header>
+
+<section class="hook">
+  Scroll if you want to know the truth
+</section>
+
+<section>
+  <h2>About Me</h2>
+  <p>
+    I’m a creative soul who loves connecting with people through visual storytelling.
+    I specialize in video production and content creation for social media, helping brands
+    tell their stories in fresh and engaging ways.
+  </p>
+</section>
+
+<section class="skills">
+  <h2>Skills</h2>
+
+  <h3>Hard Skills</h3>
+  <ul>
+    <li>Video editing for social media</li>
+    <li>Mobile video shooting</li>
+    <li>Social media design</li>
+    <li>AI-powered content creation</li>
+    <li>AI workflow automation</li>
+  </ul>
+
+  <h3>Soft Skills</h3>
+  <ul>
+    <li>Creativity</li>
+    <li>Strong visual sense</li>
+    <li>Attention to detail</li>
+    <li>Adaptability</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Tools</h2>
+  <div class="tools">
+    <img src="tool.png" alt="Tools">
+  </div>
+</section>
+
+<section>
+  <h2>Carousels</h2>
+  <div class="grid">
+
+    <div class="card">
+      <video autoplay muted loop playsinline>
+        <source src="carousel1.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="card">
+      <video autoplay muted loop playsinline>
+        <source src="carousel2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="card"><img src="carousel3.png"></div>
+    <div class="card"><img src="carousel4.png"></div>
+    <div class="card"><img src="carousel5.png"></div>
+    <div class="card"><img src="carousel6.png"></div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Copywriting</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="copy.png">
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Reel</h2>
+  <div class="grid">
+    <div class="card">
+      <video autoplay muted loop playsinline>
+        <source src="reel.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="reveal">
+  <p style="opacity:0.6;">still scrolling?</p>
+
+  <p>
+    Most content doesn’t fail because it’s bad.<br>
+    It fails because it’s ignored.
+  </p>
+
+  <p>
+    I help brands turn attention into growth.
+  </p>
+
+  <p class="highlight">
+    A creative social media manager doesn’t just glide — they accelerate your growth.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Anushka Jha</p>
+</footer>
+
+</body>
+  </html>
